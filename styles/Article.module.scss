@@ -1,0 +1,39 @@
+.idCard {
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 15px;
+    margin-bottom: 40px !important;
+}
+
+.idCardMedia {
+    width: 100%;
+    height: 600px;
+}
+
+.idCardContent {
+margin-top: 20px;
+}
+
+.idCardTitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.idCardBody {
+    margin-top: 20px;
+    h2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 500;
+    }
+
+    p {
+        margin: 15px 15px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,73 @@
+.homeContainer {
+max-width: 1100px;
+margin: 40px auto;
+}
+
+.homeBlock {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    column-gap: 40px;
+    padding: 15px;
+    align-items: center;
+    border-radius: 15px;
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.posts {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.homeCard {
+    border-radius: 15px;
+}
+ 
+.homeCardMedia {
+    height: 300px;
+    width: 100%;
+}
+
+.homeCardTitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 34px;
+}
+
+.homeCardText {
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.homeCardButton {
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-transform: none;
+    border-radius: 15px;
+    border: 2px solid ;
+    &:hover {
+        border: 2px solid ;
+    }
+    
+}
